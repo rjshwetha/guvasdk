@@ -1,0 +1,5 @@
+import guava
+
+if __name__ == "__main__":
+    webrtc_code = guava.Client().create_webrtc_agent()
+    print("Created a new agent with WebRTC code:", webrtc_code)

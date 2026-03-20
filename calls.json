@@ -1,0 +1,163 @@
+[
+  {
+    "call_id": "f66e2b3a-cea6-4659-9e16-bc796699133a",
+    "type": "eligibility",
+    "from": null,
+    "to": "+18333420909",
+    "patient_name": "Jane Smith",
+    "status": "initiated",
+    "timestamp": "2026-03-17T15:14:26.714362"
+  },
+  {
+    "call_id": "6b497aef-a22b-4712-a274-e374792e5925",
+    "type": "eligibility",
+    "from": "+13503535926",
+    "to": "+18333420909",
+    "patient_name": "Jane Smith",
+    "status": "initiated",
+    "timestamp": "2026-03-17T15:28:16.734245"
+  },
+  {
+    "call_id": "6b497aef-a22b-4712-a274-e374792e5925",
+    "status": "no_answer"
+  },
+  {
+    "call_id": "6b497aef-a22b-4712-a274-e374792e5925",
+    "type": "eligibility",
+    "status": "completed",
+    "result": {
+      "call_id": "6b497aef-a22b-4712-a274-e374792e5925",
+      "timestamp": "2026-03-17T15:28:36.147689",
+      "patient_name": "Jane Smith",
+      "status": null
+    }
+  },
+  {
+    "call_id": "23ddea31-167b-4538-8442-1f79b3626986",
+    "type": "eligibility",
+    "from": "+13503535926",
+    "to": "+18333420909",
+    "patient_name": "Jane Smith",
+    "status": "initiated",
+    "timestamp": "2026-03-17T15:30:40.697609"
+  },
+  {
+    "call_id": "23ddea31-167b-4538-8442-1f79b3626986",
+    "status": "no_answer"
+  },
+  {
+    "call_id": "23ddea31-167b-4538-8442-1f79b3626986",
+    "type": "eligibility",
+    "status": "completed",
+    "result": {
+      "call_id": "23ddea31-167b-4538-8442-1f79b3626986",
+      "timestamp": "2026-03-17T15:30:59.669539",
+      "patient_name": "Jane Smith",
+      "status": null
+    }
+  },
+  {
+    "call_id": "3f08954c-e848-4100-87e4-12b61f0d2b89",
+    "type": "eligibility",
+    "from": "+13503535926",
+    "to": "+18333420909",
+    "patient_name": "Jane Smith",
+    "status": "initiated",
+    "timestamp": "2026-03-17T15:49:05.288904"
+  },
+  {
+    "call_id": "3f08954c-e848-4100-87e4-12b61f0d2b89",
+    "status": "no_answer"
+  },
+  {
+    "call_id": "3f08954c-e848-4100-87e4-12b61f0d2b89",
+    "type": "eligibility",
+    "status": "completed",
+    "result": {
+      "call_id": "3f08954c-e848-4100-87e4-12b61f0d2b89",
+      "timestamp": "2026-03-17T15:49:26.936677",
+      "patient_name": "Jane Smith",
+      "status": null
+    }
+  },
+  {
+    "call_id": "35077fe3-36d9-4ca8-b7f3-13718a773193",
+    "type": "eligibility",
+    "from": "+13503535926",
+    "to": "+18333420909",
+    "patient_name": "Jane Smith",
+    "member_id": "UHC1234567",
+    "patient_dob": "03/15/1978",
+    "dos": "2026-04-15",
+    "status": "completed",
+    "event": "session_done",
+    "created_at": "2026-03-17T15:53:18.716196",
+    "updated_at": "2026-03-17T15:53:38.769835",
+    "event_time": "2026-03-17T15:53:26.678487",
+    "result": {
+      "call_id": "35077fe3-36d9-4ca8-b7f3-13718a773193",
+      "timestamp": "2026-03-17T15:53:38.756650",
+      "patient_name": "Jane Smith",
+      "eligibility_status": null,
+      "deductible_remaining": null,
+      "copay_amount": null,
+      "in_network_status": null,
+      "rep_name": null,
+      "reference_number": null
+    },
+    "completed_at": "2026-03-17T15:53:38.769162"
+  },
+  {
+    "call_id": "446ca50e-7a57-4adc-b4bc-420b80e37c75",
+    "type": "eligibility",
+    "from": "+13503535926",
+    "to": "+18333420909",
+    "patient_name": "Jane Smith",
+    "member_id": "UHC1234567",
+    "patient_dob": "03/15/1978",
+    "dos": "2026-04-15",
+    "status": "completed",
+    "event": "session_done",
+    "created_at": "2026-03-17T15:55:46.397783",
+    "updated_at": "2026-03-17T15:56:04.951293",
+    "event_time": "2026-03-17T15:55:56.064174",
+    "result": {
+      "call_id": "446ca50e-7a57-4adc-b4bc-420b80e37c75",
+      "timestamp": "2026-03-17T15:56:04.950387",
+      "patient_name": "Jane Smith",
+      "eligibility_status": null,
+      "deductible_remaining": null,
+      "copay_amount": null,
+      "in_network_status": null,
+      "rep_name": null,
+      "reference_number": null
+    },
+    "completed_at": "2026-03-17T15:56:04.950387"
+  },
+  {
+    "call_id": "7f8facb1-22ba-4e88-95f6-129c75c2b6c8",
+    "type": "eligibility",
+    "from": "+13503535926",
+    "to": "+18139679293",
+    "patient_name": "Jane Smith",
+    "member_id": "UHC1234567",
+    "patient_dob": "03/15/1978",
+    "dos": "2026-04-15",
+    "status": "completed",
+    "event": "session_done",
+    "created_at": "2026-03-17T19:59:48.049527",
+    "updated_at": "2026-03-17T20:00:49.683627",
+    "result": {
+      "call_id": "7f8facb1-22ba-4e88-95f6-129c75c2b6c8",
+      "timestamp": "2026-03-17T20:00:49.680508",
+      "patient_name": "Jane Smith",
+      "eligibility_status": null,
+      "deductible_remaining": null,
+      "copay_amount": null,
+      "in_network_status": null,
+      "rep_name": null,
+      "reference_number": null
+    },
+    "completed_at": "2026-03-17T20:00:49.680508"
+  }
+]
