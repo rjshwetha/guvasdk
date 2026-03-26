@@ -1,4 +1,5 @@
+--extra-index-url https://guava-pypi.gridspace.com
 fastapi
 uvicorn
-gridspace-guava --extra-index-url https://guava-pypi.gridspace.com
+gridspace-guava 
 python-dotenv
