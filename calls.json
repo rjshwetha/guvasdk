@@ -159,5 +159,32 @@
       "reference_number": null
     },
     "completed_at": "2026-03-17T20:00:49.680508"
+  },
+  {
+    "call_id": "eac193d9-1159-46f2-adbf-f6d8ac8d72a5",
+    "type": "eligibility",
+    "from": "+13503535926",
+    "to": "+18134995596",
+    "patient_name": "Jane Smith",
+    "member_id": "UHC1234567",
+    "patient_dob": "03/15/1978",
+    "dos": "2026-04-15",
+    "status": "completed",
+    "event": "session_done",
+    "created_at": "2026-03-20T22:15:15.059731",
+    "updated_at": "2026-03-20T22:16:22.026488",
+    "event_time": "2026-03-20T22:16:12.559549",
+    "result": {
+      "call_id": "eac193d9-1159-46f2-adbf-f6d8ac8d72a5",
+      "timestamp": "2026-03-20T22:16:22.025495",
+      "patient_name": "Jane Smith",
+      "eligibility_status": null,
+      "deductible_remaining": null,
+      "copay_amount": null,
+      "in_network_status": null,
+      "rep_name": null,
+      "reference_number": null
+    },
+    "completed_at": "2026-03-20T22:16:22.025495"
   }
 ]
