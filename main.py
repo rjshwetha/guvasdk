@@ -96,7 +96,11 @@ def get_call(call_id: str):
     calls = load_calls()
     for call in calls:
         if call["id"] == call_id:
-            return call
+             return {
+                "call": call,
+                "transcript": call.get("transcript", []),
+                "summary": call.get("summary")
+            }
     raise HTTPException(status_code=404, detail="Call not found")
 
 
@@ -146,13 +150,15 @@ def get_logs_by_status(status: str):
 def get_logs_by_type(call_type: str):
     """Get all logs filtered by type (eligibility, appointment, billing, etc.)"""
     calls = load_calls()
-    filtered = [c for c in calls if c.get("type") == call_type]
+    filtered = [
+    c for c in calls
+    if c.get("type") == call_type or c.get("controller") == call_type]
     if not filtered:
         return {"total": 0, "type": call_type, "logs": []}
     return {
         "total": len(filtered),
         "type": call_type,
-        "logs": filtered
+        "logs": filtered,
     }
 
 
@@ -161,6 +167,18 @@ def clear_all_logs():
     """Clear all call logs"""
     save_calls([])
     return {"message": "All logs cleared"}
+
+@app.get("/transcript/{call_id}")
+def get_transcript(call_id: str):
+    calls = load_calls()
+    for call in calls:
+        if call.get("call_id") == call_id or call.get("id") == call_id:
+            return {
+                "call_id": call_id,
+                "transcript": call.get("transcript", []),
+                "summary": call.get("summary")
+            }
+    raise HTTPException(status_code=404, detail="Call not found")
 
 
 @app.get("/")
