@@ -5,6 +5,13 @@ from fastapi import FastAPI, HTTPException
 from eligibility_verification import router as eligibility_router
 from claims_status_inquiry import router as claims_router
 from patient_ar_followup import router as patient_ar_router
+from appointment_reminder import router as appointment_router
+from billing_statement import router as billing_router
+from denial_resolution import router as denial_router
+from patient_satisfaction import router as satisfaction_router
+from payer_ar_followup import router as payer_ar_router 
+
+
 
 import uuid
 import json
@@ -15,6 +22,12 @@ app = FastAPI()
 app.include_router(eligibility_router)
 app.include_router(claims_router)
 app.include_router(patient_ar_router)
+app.include_router(appointment_router)
+app.include_router(billing_router)
+app.include_router(denial_router)
+app.include_router(satisfaction_router)
+app.include_router(payer_ar_router)
+
 
 CALLS_FILE = "calls.json"
 

@@ -333,5 +333,30 @@
       "eligibility_status": null,
       "transcript": []
     }
+  },
+  {
+    "id": "66585254-deaa-4c63-ac89-b43283ec5345",
+    "controller": "eligibility",
+    "scenario": "a",
+    "phone": " 18134995596",
+    "status": "queued",
+    "created_at": "2026-03-30T18:24:54.080469",
+    "updated_at": "2026-03-30T18:24:54.080469"
+  },
+  {
+    "call_id": "6122c1f8-e4cc-47d9-84d7-f7763871d58d",
+    "type": "eligibility",
+    "to": "+18267429824",
+    "status": "completed",
+    "transcript": [],
+    "created_at": "2026-03-31T00:03:28.991523",
+    "updated_at": "2026-03-31T00:09:43.744502",
+    "event": "reached_person",
+    "result": {
+      "call_id": "6122c1f8-e4cc-47d9-84d7-f7763871d58d",
+      "patient_name": "Jane Smith",
+      "eligibility_status": null,
+      "transcript": []
+    }
   }
 ]
